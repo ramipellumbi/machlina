@@ -1,4 +1,4 @@
-# Cobalt
+# Cobalt-ML
 
 An open source machine learning library that analyzes the results for you.
 
