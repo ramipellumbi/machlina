@@ -1,4 +1,4 @@
-# Cobalt-ML
+# Machlina
 
 An open source machine learning library that analyzes the results for you.
 
