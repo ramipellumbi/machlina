@@ -30,16 +30,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
-name = "cobalt"
-version = "0.1.0"
-dependencies = [
- "float-cmp",
- "nalgebra 0.31.4",
- "num-traits",
- "statrs",
-]
-
-[[package]]
 name = "float-cmp"
 version = "0.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -76,6 +66,17 @@ name = "libm"
 version = "0.2.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "348108ab3fba42ec82ff6e9564fc4ca0247bdccdc68dd8af9764bbc79c3c8ffb"
+
+[[package]]
+name = "machlina"
+version = "0.1.0"
+dependencies = [
+ "float-cmp",
+ "nalgebra 0.31.4",
+ "num-traits",
+ "simba 0.7.3",
+ "statrs",
+]
 
 [[package]]
 name = "matrixmultiply"
