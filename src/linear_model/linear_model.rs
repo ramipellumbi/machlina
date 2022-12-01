@@ -3,10 +3,10 @@ use std::ops::Mul;
 use nalgebra::{DMatrix, DVector};
 
 use crate::{traits::number::Number, dataset::Dataset};
+use crate::hypothesis_testing::{one_sided_f_test, two_sided_t_test};
 use super::{
     least_squares_estimate::{LeastSquaresEstimate, FStatistic}, 
     added_variable_analysis::AddedVariable, 
-    hypothesis_testing::{one_sided_f_test, two_sided_t_test}
 };
 
 
