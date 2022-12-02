@@ -1,5 +1,5 @@
 [package]
-name = "linear_models"
+name = "machlina"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,3 +8,4 @@ nalgebra = "0.31.4"
 float-cmp = "0.9.0"
 num-traits = "0.2.15"
 statrs = "0.16.0"
+simba = "0.7.3"
