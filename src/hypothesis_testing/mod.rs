@@ -1,4 +1,7 @@
-use crate::distributions::{pt, pf};
+use crate::distributions::{
+    t_distribution::pt,
+    f_distribution::pf
+};
 
 pub fn one_sided_t_test(t_val: f64, dof: usize) -> f64 {
     1.0 - pt(t_val.abs(), dof)
